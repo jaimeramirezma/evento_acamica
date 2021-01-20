@@ -67,6 +67,16 @@ header .img-responsive {
   padding: .5em;
 }
 
+#contenido_iz .imgRedonda {
+  border-radius: 50%;
+  width: 100px;
+}
+
+#logos {
+  text-align: center;
+  margin: auto;
+}
+
 #contenido_der {
   float: right;
   width: 35%;
