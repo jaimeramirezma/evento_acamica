@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#contenedor{
+    width: 900px;
+    height: 900px;
+    //background: rgb(238, 72, 72);
+    margin: 0.5em auto;
+    padding: 0.2em;
+}
+
+header{
+    .img-responsive{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#menu{
+    display: block;
+    height: 5%;
+    background-color: black;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            a{
+                color: white;
+                font-family: 'calibri';
+                font-weight: bold   ;
+                display: block;
+                text-decoration: none;
+                padding: 10px 71px;
+            }
+            a:hover{
+                background-color: #6dd1a2;
+            }
+        }
+    }
+}
+
+#contenido{
+ height: 50%;
+ background: white;
+ margin: 0.5em;
+ font-family: 'calibri';
+}
+
+#contenido_iz{
+height: 100%;
+width: 55%;
+//background: purple;
+float: left;
+padding: .5em;
+text-align: justify;
+    h2{
+        text-align: center;
+        padding: 1em;
+    }
+    h3{
+        padding: .5em;
+    }
+}
+
+#contenido_der{
+    float: right;
+    //background: blueviolet;
+    width: 35%;
+    height: 100%;
+    padding: 12px;
+    //margin: auto;
+    //padding-top: 1em;
+}
+
+
+form{
+   // color: #999; 
+    background: rgb(193, 204, 228);
+    border-radius: 1em;
+    font-family: 'calibri';
+    padding: 30px;
+    margin: auto;
+    box-shadow: 7px 13px 37px #000000;
+    h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .button_1{
+        width: 100%;
+        background: black;
+        border: none;
+        padding: 10px;
+        color: white;
+
+    }
+}
+
+.campo{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px;
+    margin-bottom: 4px;    
+}
+
+footer{
+    height: 10%;
+    background: black;
+    padding: .5rem;
+    color: white;
+    li{
+        display: inline;
+    }
+}
+
+.footer_izq{
+    margin-top: 1em;
+    width: 45%;
+    text-align: center;
+    //background-color: white;
+    float: left;
+    li{
+        list-style: none;
+        vertical-align: 0;
+    }
+
+}
+.footer_der{
+    margin-top: 0em;
+    width: 45%;
+    text-align: center;
+    //background-color: white;
+    float: right;
+    li{
+        list-style: none;
+
+    }
+    
+}
+
+.marca1 {
+    background-color: #6dd1a2;
+}
